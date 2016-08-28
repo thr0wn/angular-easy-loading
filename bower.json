@@ -1,0 +1,7 @@
+{
+  "name": "file-org",
+  "description": "",
+  "dependencies": {
+    "components-font-awesome": "^4.6.1"
+  }
+}
