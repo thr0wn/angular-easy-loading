@@ -13,6 +13,7 @@ module.exports = function (gulp, $, resources) {
             .pipe($.rename(function(path) {
                 path.extname = ".min.js"
             }))
-            .pipe(gulp.dest(resources.out));
+            .pipe(gulp.dest(resources.out))
+            .pipe(gulp.dest(resources.docs));
     });
 };

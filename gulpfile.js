@@ -3,6 +3,7 @@ var gulp = require('gulp');
 
 var resources = {
 	out: 'dist',
+	docs: 'docs',
 	js: 'src/**/*.js',
 	partials: 'src/**/*.html',
 	css: 'src/**/*.css'

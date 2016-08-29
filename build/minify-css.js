@@ -9,6 +9,7 @@ module.exports = function (gulp, $, resources) {
             .pipe($.rename(function(path) {
                 path.extname = ".min.css"
             }))
-            .pipe(gulp.dest(resources.out));
+            .pipe(gulp.dest(resources.out))
+            .pipe(gulp.dest(resources.docs));
     });
 };
