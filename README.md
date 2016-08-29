@@ -9,7 +9,7 @@ This directive adds an animated loading overlay to DOM elements marked with thr-
 
 ## Usage
 
-thr-loading directive should be added to DOM elements that has a relative or absolute  positioning as it needs to fulfill the element width and height. That said, use thr-loading as bellow:
+thr-loading directive should be added to DOM elements that has a relative or absolute  positioning as it needs to fulfill the element width and height. That said, use thr-loading as below:
 ```html
 <div thr-loading="someAngularExpression"></div>
 ```
